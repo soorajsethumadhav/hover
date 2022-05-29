@@ -1,18 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="item">
+                        <div class="position-re o-hidden"> <img src="img/rooms/2.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                        <div class="con">
+                            <h6><a href="room-details.html">200$ / Night</a></h6>
+                            <h5><a href="room-details.html">Family Room</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-7">
+                                    <ul>
+                                        <li><i class="flaticon-bed"></i></li>
+                                        <li><i class="flaticon-bath"></i></li>
+                                        <li><i class="flaticon-breakfast"></i></li>
+                                        <li><i class="flaticon-towel"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col col-md-5 text-right">
+                                    <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-
-<body>
-dadas
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+.rooms1 .item .con {
+    padding: 20px;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: left;
+    z-index: 20;
+    height: auto;
+    box-sizing: border-box;
+    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .1) 2%, rgba(0, 0, 0, .75) 90%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+}
+.rooms1 .item:hover .con {
+    bottom: 0;
+}
+<div class="item">
+                            <div class="position-re o-hidden"> <img src="img/news/2.jpg" alt="">
+                                <div class="date">
+                                    <a href="post.html"> <span>Dec</span> <i>04</i> </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="news.html">Spa</a>
+                                </span>
+                                <h5><a href="post.html">Benefits of Spa Treatments</a></h5>
+                            </div>
+                        </div>
+.news .item:hover img {
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transform: scale(1.09, 1.09);
+    transform: scale(1.09, 1.09);
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.news .item .con {
+    margin: -155px 20px 90px;
+    padding: 20px;
+    background-color: #f8f5f0 !important;
+    border: 1px solid #f8f5f0;
+    border-radius: 0;
+    overflow: hidden;
+    -webkit-transition: .2s cubic-bezier(.3, .58, .55, 1);
+    transition: .2s cubic-bezier(.3, .58, .55, 1);
+    bottom: -90px;
+    position: relative;
+}
+.news .item:hover .con {
+    bottom: 0;
+}
